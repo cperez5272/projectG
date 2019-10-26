@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #ab95cb;
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+}
+div {
+    display: block;
+}
+.demo_pic{
+    display: block;
+    float: right;
+    border-radius: 50%;
+    width: 25%;
+    border: solid black 2px;
+}
+#navbar {
+    background-color: crimson;
+    overflow: hidden;
+    /* position: fixed; */
+    width: 100%;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo > li {
+    margin-left: 10px;
+    margin-right: 15px;
+    list-style-type: none;
+}
+.bg_one {
+    background: url('images/wallpaper2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 18cm;
+}
+.container_one {
+    background: wheat;
+    padding: 4%;
+}
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 90px; 
+    background-color: wheat;
+}
+.ig_icon {
+    width: 55px;
+}
+.git_icon {
+    width: 55px;
+}
+.mail_icon {
+    width: 55px;
+}
+.in_icon {
+    width: 55px;
+}
+.reddit_icon {
+    width: 55px;
+}
+.bg_two {
+    background: url('images/wall7.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 18cm;
+}
